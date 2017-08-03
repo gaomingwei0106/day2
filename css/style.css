@@ -1,0 +1,93 @@
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  display: -webkit-flex;
+  flex-direction: column; }
+
+header {
+  height: .45rem;
+  background: #393a3f;
+  display: -webkit-flex;
+  color: #fff;
+  line-height: .45rem;
+  position: relative; }
+  header h1 {
+    font-size: .16rem;
+    box-sizing: border-box;
+    padding-left: .1rem;
+    font-weight: normal; }
+  header .iconfont {
+    font-size: .16rem;
+    height: .25rem;
+    line-height: .25rem;
+    margin-top: .1rem;
+    width: .3rem;
+    text-align: center;
+    border-right: 1px solid #000; }
+  header #switch {
+    position: absolute;
+    right: .08rem;
+    border-right: 0;
+    font-size: .24rem; }
+
+section {
+  flex: 1;
+  background: #818d9b; }
+  section .main {
+    width: 90%;
+    height: 90%;
+    margin: .1rem 5%;
+    border-radius: .06rem;
+    background: #fff; }
+    section .main .top {
+      width: 100%;
+      height: 30%;
+      position: relative; }
+      section .main .top img {
+        position: absolute;
+        top: .2rem;
+        left: 50%;
+        width: 1.5rem;
+        height: auto;
+        margin-left: -.75rem; }
+      section .main .top h2 {
+        width: 100%;
+        line-height: .4rem;
+        text-align: center;
+        padding-top: .8rem;
+        font-weight: normal; }
+    section .main .mid {
+      width: 90%;
+      margin-left: 5%;
+      position: relative; }
+      section .main .mid input {
+        display: block;
+        border: 0;
+        width: 100%;
+        border-bottom: .01rem solid #ccc;
+        box-sizing: border-box;
+        height: .6rem;
+        padding-left: .2rem; }
+      section .main .mid img {
+        position: absolute;
+        width: .2rem;
+        height: auto; }
+      section .main .mid #tel {
+        top: .2rem;
+        left: 0; }
+      section .main .mid #pwd {
+        top: .8rem;
+        left: 0; }
+      section .main .mid button {
+        display: block;
+        margin-top: .5rem;
+        width: 100%;
+        height: .35rem;
+        background: #2fba77;
+        color: #fff;
+        border: 0;
+        border-radius: .05rem; }
+
+/*# sourceMappingURL=style.css.map */
